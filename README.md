@@ -33,7 +33,7 @@ Este é um sistema simples de cadastro e gerenciamento de locações, clientes e
 
 1. Clone o projeto:
 ```bash
-git clone https://github.com/Ch-cruz-770/Sistema-Loca-es.git
+git clone https://github.com/Ch-cruz-770/Sistema-Locacoes
 ```
 
 2. Abra a pasta do backend no IntelliJ IDEA.
