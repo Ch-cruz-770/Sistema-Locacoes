@@ -1,0 +1,106 @@
+/* Fundo geral página escuro */
+body {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: #1e1e2f; /* Fundo escuro */
+    color: #ffffff;  /* Texto branco */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Títulos */
+  h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00d8ff;
+  }
+  
+  /* Formulários */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3a3a4f;
+    color: #fff;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    background-color: #4a4a6f;
+  }
+  
+  /* Botões */
+  button {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #00d8ff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00b5d1;
+  }
+  
+  /* Lista de itens (como clientes, locações etc.) */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #323248;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Mensagens */
+  .mensagem-sucesso {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .mensagem-erro {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .cancelar-btn {
+    background-color: #dc3545;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .cancelar-btn:hover {
+    background-color: #c82333;
+  }
